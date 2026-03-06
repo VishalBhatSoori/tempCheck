@@ -19,6 +19,3 @@ jobs:
         uses: gradle/actions/setup-gradle@v3
         with:
           cache-read-only: false
-
-      - name: Run Gradle Help
-        run: ./gradlew help
